@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "b31df9ee-53f4-4acc-8488-ba04735fd91b",
+		"name": "Operadora_de_saude",
+		"description": "Essa coleção traz uma demosntração de requisições GET na api de operadoras de palnos de saúde.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43660408",
+		"_collection_link": "https://harrysoncamposmartins.postman.co/workspace/Harryson-Campos-Martins's-Works~2e05828c-ffbe-4b1e-8d09-263878084f92/collection/43660408-b31df9ee-53f4-4acc-8488-ba04735fd91b?action=share&source=collection_link&creator=43660408"
+	},
+	"item": [
+		{
+			"name": "Buscar todas as operadoras",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/operadoras?",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"operadoras"
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null,
+							"description": "Traz todas as operadoras presentes"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Busca operadoras por texto",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/operadoras/?search=SÃO%20PAULO",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"operadoras",
+						""
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "SÃO%20PAULO",
+							"description": "Busca operadoras por texto (traz todas as operadoras de são paulo)"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Operadora específica",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/operadoras/422932?",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"operadoras",
+						"422932"
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null,
+							"description": "Traz uma operadora especifica usando seu Registro_ANS (Nesse caso a APLUS ADMINISTRADORA DE BENEFICIOS LTDA)"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
