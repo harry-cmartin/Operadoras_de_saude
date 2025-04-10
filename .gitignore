@@ -1,0 +1,22 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+
+# Django
+*/migrations/*
+!*/migrations/__init__.py
+db.sqlite3
+
+
+# JavaScript
+*.min.js
+
+# CSS
+*.min.css
+
+
+
+
+
