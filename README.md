@@ -1,6 +1,6 @@
 # API de Operadoras de Saúde
 
-Esta API foi desenvolvida com Django e Django REST Framework para geenciar uma busca textual para um arquivo csv.
+Esta API foi desenvolvida com Django e Django REST Framework, com frontend em Vue.js para geenciar uma busca textual para um arquivo csv de dados reais de operadoras de plano de sáude .
 
 ## Estrutura do Projeto (MVC)
 
