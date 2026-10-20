@@ -9,13 +9,15 @@ __pycache__/
 !*/migrations/__init__.py
 db.sqlite3
 
+# Imported operator report
+Relatorio_cadop.csv
+
 
 # JavaScript
 *.min.js
 
 # CSS
 *.min.css
-
 
 
 
